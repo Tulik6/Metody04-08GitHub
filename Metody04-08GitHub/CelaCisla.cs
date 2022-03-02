@@ -61,5 +61,16 @@ namespace Metody04_08GitHub
 
             return CifLichSoucet;
         }
+
+        public static bool JePrvocislo(int x)
+        {
+            bool jePrvocislo = x != 1;
+            for (int delitel = 2; delitel <= Math.Sqrt(x) && jePrvocislo; ++delitel)
+            {
+                if (x % delitel == 0) jePrvocislo = false;
+            }
+
+            return jePrvocislo;
+        }
     }
 }
