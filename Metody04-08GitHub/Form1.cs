@@ -29,5 +29,11 @@ namespace Metody04_08GitHub
             int x = int.Parse(textBox3.Text);
             MessageBox.Show("Faktoriál je " + CelaCisla.Faktorial(x));
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox4.Text);
+            MessageBox.Show("Součet lichých cifer je " + CelaCisla.CifLichSoucet(x));
+        }
     }
 }
