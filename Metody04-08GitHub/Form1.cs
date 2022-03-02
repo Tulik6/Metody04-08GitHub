@@ -16,5 +16,12 @@ namespace Metody04_08GitHub
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(textBox1.Text);
+            int y = int.Parse(textBox2.Text);
+            MessageBox.Show("Mocnina je " + CelaCisla.Mocnina(x, y));
+        }
     }
 }
