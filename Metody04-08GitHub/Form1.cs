@@ -45,8 +45,9 @@ namespace Metody04_08GitHub
 
         private void button5_Click(object sender, EventArgs e)
         {
+            CelaCisla celCis = new CelaCisla();
             int x = int.Parse(textBox6.Text);
-            MessageBox.Show("Počet sudých dělitelů je " + CelaCisla.PocetSudDelitelu(x));
+            MessageBox.Show("Počet sudých dělitelů je " + celCis.PocetSudDelitelu(x));
         }
     }
 }

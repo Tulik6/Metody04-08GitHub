@@ -73,7 +73,7 @@ namespace Metody04_08GitHub
             return jePrvocislo;
         }
 
-        public static int PocetSudDelitelu(int x)
+        public int PocetSudDelitelu(int x)
         {
             int pocetSudDelitelu = 0;
             for (int i = 1; i <= x; ++i)
